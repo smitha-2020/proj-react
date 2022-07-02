@@ -150,3 +150,22 @@ ul{
   display:flex;
   justify-content:center;
 }
+/* Error page */
+
+.errPage{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight:bolder;
+  color:red;
+  font-size:30px;
+  margin-top:300px;
+
+
+}
+
+/* .errPage img{
+  height: auto;
+  width: 100%;
+} */
