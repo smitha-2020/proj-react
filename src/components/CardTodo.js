@@ -33,6 +33,7 @@ const CardTodo = (props) => {
         {props.items.map(item => <li className='subDiv' key={item.id}>
 
                 <div className='roundName'>{(item.username).split('')[0]}</div>
+                <div className='headingName'>{item.name}</div>
                 <div className='divName'>@{item.username}</div>
                 <div className='divwebsite'>https://{item.website}</div>
                 <br></br>
